@@ -1,3 +1,4 @@
+import Intro from "./components/Intro/Intro";
 import Navbar from "./components/NavBar/Navbar";
 
 const App = () => {
@@ -5,6 +6,7 @@ const App = () => {
     <>
       <div className="App">
         <Navbar/>
+        <Intro/>
       </div>
     </>
   )
