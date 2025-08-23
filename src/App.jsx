@@ -1,3 +1,4 @@
+import Contact from "./components/Contact/Contact";
 import Intro from "./components/Intro/Intro";
 import Navbar from "./components/NavBar/Navbar";
 import Skills from "./components/Skills/Skills";
@@ -11,6 +12,7 @@ const App = () => {
         <Intro/>
         <Skills/>
         <Works/>
+        <Contact/>
       </div>
     </>
   )
